@@ -1,0 +1,18 @@
+body { 
+    background-color: rgb(227, 215, 197);
+     width: 75%;
+     padding-left: 40px
+}
+h1{
+    color:rgb(125, 74, 7)
+}  
+ 
+h2, h3 {
+    color:rgb(22, 13, 2)
+}
+img{
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(79, 66, 50)
+
+}
