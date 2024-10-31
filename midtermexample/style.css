@@ -138,3 +138,9 @@ main{
 .responsive-img{
     width: 100%;
 }
+nav li{
+    margin: solid 1px;
+    padding-left: 1em;
+}
+
+ /*end of media query*/
