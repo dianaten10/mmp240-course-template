@@ -1,0 +1,156 @@
+body{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.2em;
+  background-color: #ffffff;
+}
+#wrapper{
+    max-width: 1200px;
+    margin: 0 auto; /*first value is for top/bottom, second value for left/right */
+}
+
+header{
+ 
+    background:
+    linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(5, 5, 1)700px,
+    rgba(20, 87, 10, 0)900px),
+    url("walt.jpeg");
+    background-size: cover; /* Ensures the image covers the header fully */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding:2em;
+   
+} 
+
+p{
+    margin-bottom: 1em;
+}
+
+.lead{
+    color:white;
+    width: 400px;
+    font-weight: 100;
+}
+h1 img{
+    max-width: 100%;
+}
+
+header button{
+    background-color: rgb(200, 175, 33);
+    background-image: url("playbottom.gif");
+    background-repeat: no-repeat;
+    background-position: left;
+    color:aliceblue;
+    border: none;
+    padding: 15px;
+    padding-left: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: rgb(42, 43, 42);
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+nav li{
+    display:inline;
+    border-right: solid 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+nav li:last-child{
+    border:none;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.col{
+    width:48%;
+}
+
+.col-leftside {
+    float: left;
+    width: 45%; 
+    margin-right: 5%; 
+}
+
+.col-rightside {
+    float: right;
+    width: 45%; 
+    margin-left: 5%;
+}
+
+footer{
+    clear:both;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+h3{
+    font-size:1.5em;
+    margin-bottom: 0.5em;
+}
+
+.tv-14{
+    border:solid 1px #000;
+    padding: 0 3px;
+    font-size: larger;
+}
+
+main{
+    margin-bottom: 3em;
+    overflow:auto;
+}
+
+/* Episode page */
+.episode-card{
+    width: 22%;
+    margin-right: 2%;
+    margin-bottom: 3em;
+    border: solid 1px black;    
+ }
+ 
+ .episode-card h4{
+    text-transform: uppercase;
+    line-height: 1.5em;
+    height: 3em;
+ }
+ .episode-card p, .episode-card h4{
+    margin-right: 8px;
+    margin-left: 8px;
+ }
+ .episodes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 1em;
+}
+
+.responsive-img{
+    width: 100%;
+}
+nav li{
+    margin: solid 1px;
+    padding-left: 1em;
+}
+
+ /*end of media query*/
