@@ -1,0 +1,44 @@
+
+
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h2,h3,h4, p{
+    margin-bottom: 1em;
+}
+
+#wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:relative;
+}
+/* *** header and top navigation *** */
+
+header{
+    display:flex;
+    justify-content: space-between;
+}
+
+#topMenu{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    background-color: #fff;
+    border: solid 1px #000;
+    padding: 3px;
+}
+
+/* *** Programs Menu *** */
+
+.dropdown{
+    display: none;
+}
+
+.programNav li :hover .dropdown{
+ display: block;
+}
