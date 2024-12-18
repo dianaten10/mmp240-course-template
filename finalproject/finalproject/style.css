@@ -1,0 +1,476 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    text-align: left;
+    padding-top: 3vh;
+}
+h2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.associate{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(165, 25, 25);
+}
+
+.find-design{
+    color: rgb(165, 25, 25);
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: revert-layer;
+}
+.design-news{
+    color: rgb(165, 25, 25);
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.news a{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: rgb(165, 25, 25);
+    text-decoration: none;
+
+}
+.news h2{
+    margin-top: 20px;
+}
+
+
+h1 a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: #e0e0e0;
+}
+
+h2,h4, p{
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+    font-style:normal;
+}
+
+h3{
+    margin-bottom: 0.5em;
+    font-style:normal;
+}
+
+.btn{
+    display: inline-block;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(165, 25, 25);
+}
+.cardbtn{
+    font-size: smaller;
+    padding: 8px;
+    background-color: transparent;
+    color: #6c1010;
+    font-weight: bold;  
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+#wrapper{
+    max-width: 90%;
+    margin: 0 auto;
+    padding:relative;
+}
+.searchPrograms{
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 2em;
+}
+
+
+/* *** header and top navigation *** */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0;
+    border: solid #d83737;
+    background-color: #007BFF;
+    border-radius: 10px;
+}
+header{
+    background: #494949;
+    color: #fff;
+    padding: 0.5em;
+    display:flex;
+    justify-content: space-between;
+}
+
+#topMenu a:hover {
+    background-color: #2e76b1;
+    color: #fff;  /* Ensure text remains white on hover */
+}
+
+#topMenu{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    border: solid 1px #d83737;
+    padding: 3px;
+}
+
+/* *** Programs Menu *** */
+.h2 {
+   text-decoration: bold;
+}
+
+.programNav li{
+    background-color: #494949;
+    margin-bottom: 1em;
+}
+
+
+.programNav li a:hover {
+    background-color: rgb(44, 43, 43);  /* Change background on hover */
+    color: rgb(237, 233, 233);  /* Change text color on hover */
+    
+}
+
+.programNav li a:active {
+    color: #494646;  /* Active link color */
+    background-color: #e0e0e0;  /* Active link background */
+}
+
+@media (max-width: 768px) {
+
+
+    .banner h3 a {
+        font-size: medium;
+    }
+
+    .banner h3 {
+        margin-left: 0;
+        text-align: center;
+        background-color: rgba(43, 40, 40, 0.5);
+        padding: 3em;
+        line-height: normal;
+        color: rgb(255, 255, 255);
+    }
+    .banner{
+        padding: 2em;
+        background: url("images/queens.webp") no-repeat;
+        background-size:cover;
+    }
+
+    main .home{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 1em;
+        padding-top: 2rem;
+    }
+
+    .banner .btn {
+        margin-left: 40%;
+    }
+
+    .programNav .dropdown{
+        display: none;
+        width: 100%;
+    } 
+    }
+
+
+.dropdown{
+    display: none;
+    
+}
+.programNav .dropdown li {
+    margin-bottom: 0;
+    border-bottom: solid 1px rgb(107, 106, 106);
+  
+}
+.programNav .dropdown li a:hover{
+    background-color: rgb(44, 43, 43);
+    color: rgb(237, 233, 233);
+  
+  
+}
+.programNav li:hover .dropdown{
+    display: block;
+    
+}
+
+
+/* ******* Banner *********/
+
+
+.banner h3 a{
+    color: white;
+    text-decoration: none;
+}
+
+/* *******Section*******/
+section{
+    margin-bottom: 1em;
+}
+
+section h3{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 10px;
+}
+article h2{
+    text-transform: 0;
+    color: rgb(0, 0, 0);
+}
+
+
+.event-image{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.event h2, .event p {
+    margin-left: 10px; /* Moves the text slightly to the right */
+}
+.event-details{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.event-info p {
+    margin-top: 10px; /* Creates space between the lines of text */
+    margin-left: 10px;
+}
+
+
+/** Category pages **/
+.programCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+
+.card{
+    
+    border: solid 1px #000;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /*smooth animation*/
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 290px;
+    height: 450px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);/*moves the card slightly up*/
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2); /*enhance shadow effect*/
+
+}
+.card img{
+    width:100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.card h2, .card h3, .card p{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    margin-left: auto;
+}
+.cardBody{
+    padding: 15px;  
+    flex: 1em;
+    
+}
+.programCards a{
+    text-decoration: none;
+    display: block;  
+}
+
+.card h2{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.cardBody{
+    padding: 1em;
+}
+.programcards a:hover{
+   background-color: beige;
+   
+}
+.programCards .card{
+    margin: 10px 5px;
+}
+main{
+    margin-bottom: 5em;
+}
+
+
+/*** for screens 768px and up*/
+@media (min-width:768px){
+
+    .menu{
+        display: none;
+        cursor:pointer;
+        padding: 2rem;
+    }
+    .menu .active.bar:nth-child(2){
+        opacity:0;
+    }
+    .menu.active.bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .menu.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #topMenu{
+        display: flex;
+        border: none;
+        position: static;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #topMenu ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+        #topMenu a {
+            text-decoration: none;
+            color: #ebe9e9;
+            padding: 12px 20px; /* Increase click area */
+            display: flex;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #494949;
+            transition: background-color 0.3s, color 0.3s;
+            align-content: center;
+        }
+        
+        #topMenu a:hover {
+            background-color: #262626;
+            color: #fff;
+        }
+        
+        /* Add space around navigation bar itself */
+        header {
+            display: flex;
+            padding: 15px 5%; /* Vertical spacing inside the header */
+            background-color: #494949; /* Optional: Set a background color */
+            display:flex;
+            align-items: center;
+            align-content: center;
+            padding-left: 5%;
+            padding-right: 5%;
+            justify-content: space-between;
+        }
+
+        .programNav ul{
+            display:flex;
+            justify-content: space-between;
+        }
+
+        .programNav ul li{
+            width: 32%;
+            position: relative;
+        }
+
+        .banner h3{
+            background-color: rgba(43, 40, 40, 0.5);
+            padding: 3em;
+            font-size: 2rem;
+            line-height: 1.4em;
+            color: rgb(255, 255, 255);
+        }
+
+        .banner{
+            padding: 2em;
+            padding-top: 4em;
+            background: url("images/queens.webp") no-repeat;
+            background-size:cover;
+        }
+
+        main.home{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            column-gap: 1em;
+            padding-top: 2rem;
+        }
+
+        .banner .btn {
+            margin-left: 46%;
+        }
+
+        .programNav .dropdown{
+            display: none;
+            position: absolute;
+            width: 100%;
+        }
+    }
+
+    #topMenu li{
+    margin: 0 15px;
+}
+/* horizontal program menu */
+
+
+.programNav li a {
+    padding: 12px 20px;
+    display: block;
+    text-decoration: none;  /* Remove underline */
+    color: #ebe9e9;  /* Default text color */
+    background-color: #494949;  /* Default background */
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    border-bottom: 2px solid transparent;  /* Border for hover effect */
+}
+
+.programNav ul li :hover{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.programNav .dropdown li{
+    width:100%;
+}
+
+
+footer {
+    margin-top: 30%;
+    display: block;
+    justify-self: center;
+    color:#494949;
+}
+
+/* end of media query */
